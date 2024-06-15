@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Sistema Grafico Sonoro</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.js">
+	</script>
+
+</head>
+
+<body>
+  <div>
+    <p>
+      Este proyecto fue creado grupalmente dentro del curso de cómputo musical dentro del laboratorio Lacremus.
+      La intención fue crear un sistema gráfico sonoro como pretexto para aprender los fundamentos del cómputo.
+    </p>
+    </div>
+  
+  <div>
+  	<button class="button-6" id="botonPA" type="button" onclick="tocaOApagaPieza()">Toca</button>
+  <button class="button-6" id="botonPA" type="button" onclick="limpia()">Limpia</button>
+    <button class="button-6" id="botonTipo" type="button" onclick="cambiarTipo()">SOY Parametrica</button>
+  <button class="button-6" id="botonG" type="button" onclick="changeGrid()">Grid</button>
+  <button class="button-6" id="botonG" type="button" onclick="salvaPieza()">Salva Pieza</button>
+  </div>
+  <div>
+  <input class="button-6" type="file" id="file-input" />
+Nombre del archivo:
+<pre  id="file-content"></pre>
+</div>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+  </body>
+</html>
